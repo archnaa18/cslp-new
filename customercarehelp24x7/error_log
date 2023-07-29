@@ -1,0 +1,48 @@
+[06-Jul-2023 13:28:21 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:28:21 UTC] PHP Warning:  Undefined array key "waranty" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:28:21 UTC] PHP Warning:  Undefined array key "flat" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 13:28:21 UTC] PHP Warning:  Undefined array key "pin" in /home2/samhelp/public_html/email.php on line 12
+[06-Jul-2023 13:28:21 UTC] PHP Warning:  Undefined array key "message" in /home2/samhelp/public_html/email.php on line 13
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined variable $waranty in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined variable $flat in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined variable $pin in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined variable $message in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 13:34:03 UTC] PHP Warning:  Undefined variable $headers in /home2/samhelp/public_html/email.php on line 30
+[06-Jul-2023 13:36:56 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:36:56 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:36:56 UTC] PHP Warning:  Undefined variable $waranty in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 13:36:56 UTC] PHP Warning:  Undefined variable $headers in /home2/samhelp/public_html/email.php on line 30
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "name" in /home2/samhelp/public_html/email.php on line 6
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "email" in /home2/samhelp/public_html/email.php on line 7
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "phone" in /home2/samhelp/public_html/email.php on line 8
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:37:12 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 13:48:09 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:48:09 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:48:09 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 13:50:33 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 13:50:33 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 13:50:33 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 14:30:11 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 14:30:11 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 14:30:11 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 14:39:56 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 14:39:56 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 14:39:56 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 14:44:20 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 14:44:20 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 14:44:20 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 14:44:31 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 14:44:31 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 14:44:31 UTC] PHP Warning:  Undefined array key "address" in /home2/samhelp/public_html/email.php on line 11
+[06-Jul-2023 14:46:40 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[06-Jul-2023 14:46:40 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[06-Jul-2023 14:46:40 UTC] PHP Warning:  Undefined variable $waranty in /home2/samhelp/public_html/email.php on line 23
+[06-Jul-2023 14:46:40 UTC] PHP Warning:  Undefined variable $headers in /home2/samhelp/public_html/email.php on line 30
+[07-Jul-2023 03:07:01 UTC] PHP Warning:  Undefined array key "product" in /home2/samhelp/public_html/email.php on line 9
+[07-Jul-2023 03:07:01 UTC] PHP Warning:  Undefined array key "service" in /home2/samhelp/public_html/email.php on line 10
+[07-Jul-2023 03:07:01 UTC] PHP Warning:  Undefined variable $waranty in /home2/samhelp/public_html/email.php on line 23
+[07-Jul-2023 03:07:01 UTC] PHP Warning:  Undefined variable $headers in /home2/samhelp/public_html/email.php on line 30

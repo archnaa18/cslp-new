@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customercare Help 24x7</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+     <style>
+    #callnowbutton{text-align:center;font-size:20px;width:100%;color:#fff;position:fixed;bottom:0px;z-index:9999;display:none}
+    #callnowbutton ul{list-style-type:none;list-style-position:inside;padding:0px;margin:0px}
+    #callnowbutton ul li{display:inline-block;width:50%;padding:15px 0px;text-align:center;float:left}
+    #callnowbutton ul li a i{color:#fff;font-size:18px}
+    .phone{background:#007bff}  
+@media only screen and (max-width: 600px) {
+  #callnowbutton {
+    display:block;
+    
+  }
+  
+  .btn {width:100%}
+  .appio-about-features li{width:100%}
+  .hidemob{display:none}
+  
+
+}   
+  </style>
+   
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mb-lg-4" href="#"><span class="h3 fw-bold d-block d-lg-none">24*7-Service</span>
+                <img src="./images/logo2.jpg" style="object-fit: cover;" class="d-none d-lg-block rounded-circle"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mx-lg-auto"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slider">Why Choose Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--//Nav Bar-->
+    <!--Content-->
+    <div id="content-wrapper">
+        <!--Home Section-->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="d-4 fw-bold">Welcome to <span class="text-brand">Customercare Help 24x7</span>
+                        </h1>
+                        <p class="lead mt-2 mb-4">Your Trusted Appliance Repair Experts</p>
+                        <div class="home-link pb-4">
+                            <a href="#services" class="btn btn-brand me-3">Explore our services</a>
+                            <a href="tel:8008800273" class="link-custom"><i class='bx bxs-phone-call'></i>Call Now :80088 00273</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" method="post" action="email.php">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput1" placeholder="full name" pattern="[a-zA-Z'-'\s]*" title="This field accepts Alphabetes" name="name" required>
+                                <label for="floatingInput1">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput2" placeholder="email" name="email" required>
+                                <label for="floatingInput2">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword"
+                                    placeholder="Phone Number" pattern="^[+0]{0,2}(91)?(?([0-9]{5})\)?[-. ]?([0-9]{5})[-. ]$" title="Enter a valid mobile number" name="phone" required>
+                                <label for="floatingPassword">Phone Number</label>
+                            </div>
+                             <!-- dropdown item -->
+                            <div class="form-floating mb-3">
+                                <div class="dropdown">
+                                    <select name="selectproduct" id="selectproduct" class="selectoption">
+                                        <option value="">Select Your Product</option>
+                                        <option value="">In Warrenty</option>
+                                        <option value="">Out of Warrenty</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="form-floating mb-3">
+                                <div class="dropdown">
+                                    <select name="selectservice" id="selectservice" class="selectoption">
+                                        <option value="">Select Your Service</option>
+                                        <option value="">Washing Machine Repair & Service</option>
+                                        <option value="">Fridge Repair & Service</option>
+                                        <option value="">Microwave Oven Repair & Service</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                          
+                        <!-- dropdown item -->
+
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput3" placeholder=" address" name="address">
+                                <label for="floatingInput3">Address</label>
+                            </div>
+
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
+                            <hr class="my-4">
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--//Home Section-->
+
+        <!--About-->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8">
+                        <h2 class="text-brand">About Us</h2>
+
+                    </div>
+                </div>
+                <div class="row" id="row1">
+                    <div class="col-md-5" id="about-img">
+                        <img src="./images/fridge1.png" alt="">
+                    </div>
+                    <div class="col-md-6" id="about-con">
+
+                        <p>At Customercare Help 24x7, we understand the importance of having
+                            well-functioning home appliances. That's why we are committed to providing reliable and
+                            efficient repair services for your washing machine, refrigerator, and microwave oven. With
+                            our team of skilled technicians and a dedication to customer satisfaction, we strive to
+                            exceed your expectations and restore the optimal performance of your appliances.</p>
+                    </div>
+
+                </div>
+
+                <div class="row" id="row2">
+
+
+                    <div class="col-md-6" id="about-con1">
+
+                        <p>From minor repairs to complex issues, our experienced professionals are equipped with the
+                            knowledge and expertise to handle a wide range of appliance problems. We use
+                            state-of-the-art tools and follow industry best practices to ensure that your appliances are
+                            repaired promptly and effectively.</p>
+                    </div>
+                    <div class="col-md-5" id="about-img1">
+                        <img src="./images/washingmach.png" alt="">
+                    </div>
+                </div>
+                <div class="row" id="row3">
+                    <div class="col-md-5" id="about-img2">
+                        <img src="./images/microwaveimg.png" alt="">
+                    </div>
+                    <div class="col-md-6" id="about-con2">
+
+                        <p>Trust us to deliver exceptional service and get your appliances back up and running
+                            smoothly. Contact Customer Care & Service Blr today to schedule an appointment and
+                            experience our reliable appliance repair solutions.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--//About-->
+
+        <!--Services-->
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">Services Offered</h6>
+                        <h2>Customercare Help 24x7 offers a comprehensive range of appliance repair services to
+                            address your specific needs.Our services include:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="services p-4 bg-base shadow-effect">
+                            <div class="iconbox"><i class='bx bxs-box'></i></div>
+                            <h4 class="mt-4 mb-2">Washing Machine Service</h4>
+                            <p>Our skilled technicians specialize in washing machine repairs. Whether your machine is
+                                not spinning, leaking, or experiencing any other issues, we can diagnose the problem and
+                                provide <span id="dots">...</span><span id="more">efficient solutions.We handle various
+                                    types and brands of washing machines,
+                                    ensuring that your laundry needs are met promptly</span></p>
+                            <button class="btn btn-brand me-3" onclick="myFunction()" id="myBtn">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="services p-4 bg-base shadow-effect">
+                            <div class="iconbox"><i class='bx bxs-fridge'></i></div>
+                            <h4 class="mt-4 mb-2">Refrigerator Repair Service</h4>
+                            <p>A malfunctioning refrigerator can lead to food spoilage and inconvenience. Our team is
+                                trained to handle refrigerator repairs of different makes and models. We can fix issues
+                                such as cooling problems, strange <span id="dots1">...</span><span id="more1"> noises,
+                                    faulty temperaturecontrol, and more. Count on
+                                    us to restore the performance of your refrigerator and preserve your food for
+                                    longer.
+                                </span></p>
+                            <button class="btn btn-brand me-3" onclick="myFunction1()" id="myBtn1">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="services p-4 bg-base shadow-effect">
+                            <div class="iconbox"><i class='bx bxs-devices'></i></div>
+                            <h4 class="mt-4 mb-2">Microwave Oven Service</h4>
+                            <p>If your microwave oven is not heating, has electrical problems, or is displaying error
+                                codes, our experts are here to help. We have the knowledge and skills to diagnose and
+                                repair microwave oven issues <span id="dots2">...</span><span id="more2">efficiently.
+                                    Trust us to ensure that your microwave oven
+                                    operates safely and effectively, making your cooking experience hassle-free.</span>
+                            </p>
+                            <button class="btn btn-brand me-3" onclick="myFunction2()" id="myBtn2">Read more</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!--//Services-->
+
+        <!--Why Choose Us-->
+        <section id="slider" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8">
+                        <h2 class="text-brand text-center fw-bold  mb-3">Why Choose Us</h2>
+
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col">
+                        <div class="slider">
+                            <div class="owl-carousel owl-theme" id="card-text">
+                                <div class="slider-card">
+                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                        <img src="./images/tech.jpg" alt="">
+                                    </div>
+                                    <h5 class="text-center">Expert Technicians</h5>
+                                    <p class="text-center p-4">Our team of skilled technicians has extensive experience
+                                        in
+                                        appliance repair. They
+                                        undergo regular training to stay updated with the latest advancements in the
+                                        industry. With their expertise and attention to detail, you can trust us to
+                                        deliver
+                                        high-quality repair services.
+                                    </p>
+                                </div>
+
+                                <div class="slider-card">
+                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                        <img src="./images/repair.jpg" alt="">
+                                    </div>
+                                    <h5 class="text-center">Prompt and Reliable Service</h5>
+                                    <p class="text-center p-4">We understand the inconvenience caused by a
+                                        malfunctioning
+                                        appliance. That's why we prioritize prompt service delivery. Our technicians
+                                        arrive
+                                        at your doorstep on time, equipped with the necessary tools and parts to
+                                        efficiently
+                                        diagnose and repair your appliance.
+                                    </p>
+                                </div>
+
+                                <div class="slider-card">
+                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                        <img src="./images/quality.jpg" alt="">
+                                    </div>
+                                    <h5 class="text-center">Quality Repairs</h5>
+                                    <p class="text-center p-4">We are committed to delivering lasting solutions. We use
+                                        genuine spare parts and follow industry best practices to ensure that your
+                                        appliances are repaired to the highest standards. Our focus is on providing
+                                        reliable
+                                        repairs that extend the lifespan of your appliances.
+                                    </p>
+                                </div>
+
+                                <div class="slider-card">
+                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                        <img src="./images/customersat.jpg" alt="">
+                                    </div>
+                                    <h5 class="text-center">Customer Satisfaction</h5>
+                                    <p class="text-center p-4">Your satisfaction is our top priority. We strive to
+                                        provide
+                                        excellent customer service, ensuring that your needs are met at every step. Our
+                                        friendly and professional team is always ready to address your concerns and
+                                        provide
+                                        transparent communication throughout the repair process.
+                                    </p>
+                                </div>
+
+                                <div class="slider-card">
+                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                        <img src="./images/afford.jpg" alt="">
+                                    </div>
+                                    <h5 class="text-center">Affordable Pricing</h5>
+                                    <p class="text-center p-4">We believe that quality repairs should be accessible to
+                                        everyone. Our services are competitively priced without compromising on quality.
+                                        We
+                                        provide transparent pricing with no hidden charges, ensuring that you receive
+                                        the
+                                        best value for your investment
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--//Why Choose Us-->
+        <!--Contact Us-->
+
+        <section id="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="py-5">
+                        <h2 class="display-5 fw-bold text-white">Contact Us</h2>
+                        <div class="col-lg-6 mx-auto">
+                            <p class="fs-5 mb-4">Choose Customercare Help 24x7 for reliable and efficient appliance
+                                repairs. Trust us to restore the functionality of your washing machine, refrigerator, or
+                                microwave oven. Contact us today to schedule an appointment and enjoy hassle-free
+                                appliance repairs.</p>
+                            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <button type="button" class="btn btn-outline-danger btn-lg px-4 me-sm-3 fw-bold"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" method="post" action="email.php">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput1" placeholder="full name" name="name" required 
+                                pattern="[a-zA-Z'-'\s]*" title="This field accepts Alphabetes">
+                                <label for="floatingInput1">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput2" placeholder="email" name="email" required>
+                                <label for="floatingInput2">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword"
+                                    placeholder="Phone Number" name="phone" required pattern="^[+0]{0,2}(91)?(?([0-9]{5})\)?[-. ]?([0-9]{5})[-. ]$" title="Enter a valid mobile number">
+                                <label for="floatingPassword">Phone Number</label>
+                            </div>
+                            <!-- dropdown item -->
+                            <div class="form-floating mb-3">
+                                <div class="dropdown">
+                                    <select name="selectproduct" id="selectproduct" class="selectoption">
+                                        <option value="">Select Your Product</option>
+                                        <option value="">In Warrenty</option>
+                                        <option value="">Out of Warrenty</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="form-floating mb-3">
+                                <div class="dropdown">
+                                    <select name="selectservice" id="selectservice" class="selectoption">
+                                        <option value="">Select Your Service</option>
+                                        <option value="">Washing Machine Repair & Service</option>
+                                        <option value="">Fridge Repair & Service</option>
+                                        <option value="">Microwave Oven Repair & Service</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                          
+                        <!-- dropdown item -->
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput3" placeholder="address" name="address">
+                                <label for="floatingInput3"  required>Address</label>
+                            </div>
+
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
+                            <hr class="my-4">
+
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--//Contact Us-->
+
+
+
+        <section id="footer" class="px-lg-5">
+            <footer class="py-3 my-4">
+                <h2 class="display-5 fw-bold text-white">Disclaimer</h2>
+                <p>WE ARE AN INDEPENDENT SERVICE PROVIDER AND WE HAVE NO AUTHORIZATION FROM ANY COMPANY: AS "ANY HOME
+                    APPLIANCES AUTHORIZED CUSTOMER CARE". WE DEAL WITH ALL APPLIANCES PRODUCTS ONLY AFTER THE STANDARD
+                    ONE YEAR WARRANTY.</p>
+                <p class="text-center text-body-secondary">© Copyright Customercare Help 24*7.All Rights Reserved</p>
+            </footer>
+        </section>
+    </div>
+    <!--//Contact Us-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/jquery.min.js"></script>
+    <script src="./javascript/owl.carousel.min.js"></script>
+    <script src="./javascript/app.js"></script>
+
+
+    <div id="callnowbutton">
+    <ul>
+<li class="phone" style="width:100%" "height:100%"> <a href="tel:8008800273" style="color:#fff" >Call Now :  80088 00273</a></li>
+</ul>
+    </div>
+</body>
+
+</html>
